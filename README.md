@@ -20,7 +20,7 @@
 </p>
 
 <p align="center"> <strong>WACV 2026</strong></p>
-    <h3 align="center"><a href="https://dfki-av.github.io/inpaint360gs/">Project Page</a> | <a href="https://dfki-av.github.io/inpaint360gs/">Dataset</a> | <a href="https://dfki-av.github.io/inpaint360gs/">Paper</a> | <a href="https://dfki-av.github.io/inpaint360gs/">Evaluation Result</a></h3>
+    <h3 align="center"><a href="https://dfki-av.github.io/inpaint360gs/">Project Page</a> | <a href="https://dfki-av.github.io/inpaint360gs/">Dataset</a> | <a href="https://arxiv.org/abs/2511.06457">Paper</a> | <a href="https://dfki-av.github.io/inpaint360gs/">Evaluation Result</a></h3>
     <div align="center"></div>
 </p>
 
@@ -79,14 +79,15 @@ You can contact the author through email: shaoxiang.wang@dfki.de.
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-@inproceedings{wang2025uni,
-      title={Uni-slam: Uncertainty-aware neural implicit slam for real-time dense indoor scene reconstruction},
-      author={Wang, Shaoxiang and Xie, Yaxu and Chang, Chun-Peng and Millerdurai, Christen and Pagani, Alain and Stricker, Didier},
-      booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-      pages={2228--2239},
+@misc{wang2025inpaint360gsefficientobjectaware3d,
+      title={Inpaint360GS: Efficient Object-Aware 3D Inpainting via Gaussian Splatting for 360{\deg} Scenes}, 
+      author={Shaoxiang Wang and Shihong Zhang and Christen Millerdurai and Rüdiger Westermann and Didier Stricker and Alain Pagani},
       year={2025},
-      organization={IEEE}
-    }
+      eprint={2511.06457},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2511.06457}, 
+}
 ```
 
 ### Acknowledgement
